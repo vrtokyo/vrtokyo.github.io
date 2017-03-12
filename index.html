@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="ja">
+<head>
+
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>VR Tech Tokyo #6 @ Microsoft</title>
+	<meta name="description" content="VR Tech Tokyoは、VR元年と呼ばれた2016年の5月に発足したVirtual Reality (人工現実感)に関連する開発者・技術者を対象とする、有志による非営利の勉強会コミュニティです。">
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+ 	<link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+</head>
+
+<body onload="initialize();">
+	<div class="preloader-mask">
+		<div class="preloader"></div>
+	</div>
+
+	<section id="hero" class="hero-section bg1 bg-cover window-height light-text" style="background-image: none; background-color: rgba(212,13,18,1)">
+		<div class="heading-block centered-block align-center">
+			<div class="container">
+				<h5 class="heading-alt" style="margin-bottom: 8px;"><span class="fa fa-calendar-o base-clr-txt"></span>19.mar <span class="fa fa-map-marker base-clr-txt" style="margin-left: 14px;"></span>Shinagawa, Tokyo</h5>
+				<h1 class="extra-heading" style="text-transform: inherit;">VR Tech Tokyo #6</h1>
+				<h6 class="thin base-font">Massive community about <strong>xReality developement</strong></h6>
+				<div class="btns-container">
+					<a href="https://vrtokyo.connpass.com/event/49456/" class="btn btn-md" data-modal-link="email-ticket">TICKETS SOLD OUT</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<header class="header header-black">
+		<div class="header-wrapper">
+			<div class="container">
+				<div class="col-sm-2 col-xs-12 navigation-header" style="padding-top: 16px;">
+					<a href="#" class="logo">
+						<img src="assets/img/vrtechtokyo_logo.png" alt="VR Tech Tokyo" width="119" class="retina-show">
+					</a>
+					<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="col-sm-10 col-xs-12 navigation-container">
+					<div id="navigation" class="navbar-collapse collapse">
+						<ul class="navigation-list pull-left light-text">
+							<li class="navigation-item"><a href="#speakers" class="navigation-link">Speakers</a></li>
+							<li class="navigation-item"><a href="#schedule" class="navigation-link">Schedule</a></li>
+							<li class="navigation-item"><a href="#previousEvents" class="navigation-link">Previous events</a></li>
+							<li class="navigation-item"><a href="#sponsors" class="navigation-link">Sponsors</a></li>
+							<li class="navigation-item"><a href="#access" class="navigation-link">Access</a></li>
+						</ul>
+						<a href="https://vrtokyo.connpass.com/event/49456/" class="pull-right buy-btn">Tickets SOLD OUT</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="motivation" class="section align-center">
+		<div class="container">
+			<span class="icon section-icon icon-alerts-18"></span>
+			<h3>Introduction</h3>
+			<br />
+			<br />
+			<div class="col-md-10 col-md-offset-1">
+				<article>
+					<p class="align-left" style="font-size: 1.2em;">
+						<span class="highlight">VR</span> Tech Tokyo は、VR 元年と呼ばれた 2016 年の 5 月に発足した Virtual Reality (人工現実感) に関連する開発者・技術者を対象とする、有志による非営利の勉強会コミュニティです。<br>
+						<br>
+						2017 年の今日において、その対象範囲は VR だけに限らず、AR 即ち Augmented Reality (拡張現実感) から MR 即ち Mixed Reality (複合現実感	) まで xReality と呼ばれるものすべてとしています。<br>
+						<br>
+						xR に関する知見を広く共有しあえる場を作ることを目的としているため、開発者・技術者だけに限らず、デザイナやプランナ、学生まで、xR に興味を持っていればどなたでも参加することができます。<br>
+						<br>
+						第 6 回目となる今回は、<a href="https://www.microsoft.com/ja-jp/" target="_blank">日本マイクロソフト株式会社</a> 様による会場提供のもと、8本の発表と8つのコンテンツを体験することができます。
+					</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<section id="speakers" class="section speakers-section align-center">
+		<div class="container">
+			<span class="icon section-icon icon-faces-users-04"></span>
+			<h3>Speakers</h3>
+			<br />
+			<br />
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/unokiman.jpg" alt="" class="img-responsive"></div>
+					<h3 class="name">鵜木 健栄</h3>
+					<p class="about" style="font-size: 0.8em;">日本マイクロソフト株式会社</p>
+					<ul class="speaker-socials">
+						<li><a href="https://www.facebook.com/unokiman" target="_blank"><span class="fa fa-facebook"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/shun_sasaki.png" alt="" class="img-responsive"></div>
+					<h3 class="name">佐々木 瞬</h3>
+					<p class="about" style="font-size: 0.8em;">株式会社ヒストリア CEO</p>
+					<ul class="speaker-socials">
+						<li><a href="https://www.facebook.com/shun.sasaki.98" target="_blank"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="https://twitter.com/s_ssk13" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/maki_sugimoto.png" alt="" class="img-responsive"></div>
+					<h3 class="name">杉本 真樹</h3>
+					<p class="about" style="font-size: 0.8em;">Holoeyes株式会社取締役COO</p>
+					<ul class="speaker-socials">
+						<li><a href="https://www.facebook.com/mksgmt" target="_blank"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="https://twitter.com/MakiS_Holoeyes" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/YuukiOgino.jpg" alt="" class="img-responsive"></div>
+					<h3 class="name" style="text-transform: inherit;">@YuukiOgino</h3>
+					<p class="about" style="font-size: 0.8em;">VRZ_Project</p>
+					<ul class="speaker-socials">
+						<li><a href="https://www.facebook.com/yuuki.ogino.39" target="_blank"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="https://twitter.com/YuukiOgino" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/halne369.jpg" alt="" class="img-responsive"></div>
+					<h3 class="name" style="text-transform: inherit;">@halne369</h3>
+					<p class="about" style="font-size: 0.8em;">VR IMAGINATORS 代表</p>
+					<ul class="speaker-socials">
+						<li><a href="https://www.facebook.com/halne.kim" target="_blank"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="https://twitter.com/halne369" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/voxelkei.jpg" alt="" class="img-responsive"></div>
+					<h3 class="name" style="text-transform: inherit;">@VoxelKei</h3>
+					<p class="about" style="font-size: 0.8em;">Individual developer</p>
+					<ul class="speaker-socials">
+						<li><a href="https://twitter.com/VoxelKei" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/kenta_sekine.jpg" alt="" class="img-responsive"></div>
+					<h3 class="name">関根 健太</h3>
+					<p class="about" style="font-size: 0.8em;">株式会社積木製作 シニアディレクター</p>
+					<ul class="speaker-socials">
+						<li><a href="https://www.facebook.com/kenta.sekine.963" target="_blank"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="https://twitter.com/sekine_kenta" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="speaker">
+					<div class="photo-wrapper"><img src="assets/img/speakers/kendotto.jpg" alt="" class="img-responsive"></div>
+					<h3 class="name">川口 健太郎</h3>
+					<p class="about" style="font-size: 0.8em;">VAQSO Inc. CEO</p>
+					<ul class="speaker-socials">
+						<li><a href="https://www.facebook.com/kendotto/" target="_blank"><span class="fa fa-facebook"></span></a></li>
+						<li><a href="https://twitter.com/kendotto" target="_blank"><span class="fa fa-twitter"></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="schedule" class="section schedule-section align-center">
+		<div class="container">
+			<span class="icon section-icon icon-office-21"></span>
+			<h3>Schedule</h3>
+			<br />
+			<br />
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row schedule">
+					<div class="tab-content" style="border-top: 1px solid #e9e9e9;">
+						<div id="schedule3_day1" class="tab-pane fade active in">
+
+							<!-- Second level content start -->
+							<div class="tab-content tab-content-schedule">
+
+								<!-- Main content start -->
+								<div id="schedule3_day1_main" class="tab-pane fade active in">
+
+									<!-- Accordion start -->
+									<div class="panel-group" id="schedule3_day1_main_timeline">
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-pencil"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>12:30</strong>
+												<h6 class="title">受付開始</h6>
+											</span>
+											<div id="schedule3_day1_main_time1" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">
+														会場建物内 2F に設置した受付で入館手続きをしてください。<br>
+														入館手続き後、入館証をお持ちの上、ゲスト用エレベーターで 31F までお越しください。<br>
+														入館証は、退出時に必ず 2F のセキュリティゲート横の返却ボックスにお戻しください。
+													</p>
+													<p>
+														<b class="highlight">受付は 13:30 で終了いたします。ご注意ください。</b>
+													</p>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-microphone"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>13:00 - 13:05</strong>
+												<h6 class="title">開会・趣旨説明</h6>
+											</span>
+											<div id="schedule3_day1_main_time1" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">VR Tech Tokyo 運営責任者 @ikkou</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-windows"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>13:05 - 13:10</strong>
+												<h6 class="title">会場説明・会社紹介</h6>
+											</span>
+											<div id="schedule3_day1_main_time1" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">日本マイクロソフト株式会社 物江 修</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-windows"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>13:10 - 13:50</strong>
+												<h6 class="title">Windows はAR/MR/VR/HDRの夢を見るか？</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">
+														現在MR、AR、VR、HDRは開発とビジネス双方の潮流となっています。<br>
+														このセッションでは現在のデバイスとグラフィックス事情ならびに3Dグラフィックスを作成するときの基本的な留意事項についてお話いたします。<br>
+														タイトルにはWindowsとかいてありますが汎用的に使える話になります。
+													</p>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">日本マイクロソフト株式会社 鵜木 健栄</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-comments"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>13:55 - 14:25</strong>
+												<h6 class="title">AirtoneVR事例 既存の面白さ＋チャレンジのゲームデザイン</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">
+														今春発売のVRリズムアクションゲーム"Airtone"のゲームデザインについて語ります。<br>
+														本作は"全く新しいVR体験"という路線ではなく、既存ゲームの面白さをベースに、VRならではのチャレンジを追加する形でゲームデザインを行っています。<br>
+														なぜこのようなアプローチをとったのか、また、どの部分が既存ゲームの面白さから組み立てた固いゲームデザインの部分なのか、そして、どの部分でどんなチャレンジをしているかをお話しできればと思います。
+													</p>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">株式会社ヒストリア 佐々木 瞬</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-comments"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>14:30 - 15:00</strong>
+												<h6 class="title">VR/AR/MR/Hologramを非ゲーム系で社会実装するコツと落とし穴</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">仮想現実VR,拡張現実AR,複合現実MR､ホログラムなどはいかに社会に貢献するかがビジネスの鍵である。その実践的事例を、コツと落とし穴を交えご紹介します。<br>
+													Oculus RiftやHTC VIVEなどのHMD情報端末をはじめ、360°動画撮影可能な全天球カメラ、スマホ型ARとして位置計測センサー搭載のLenovo Phab2 ProやMRゴーグルのMicrosoft HoloLensなど最新デバイスの活用実例から、3Dモデル作成のコツ、Unityアプリ開発、魅力的なコンテンツ制作法など、開発者とユーザーが共に活用できるアイデアを、実例を交えわかりやすくご紹介します。</p>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">杉本 真樹（医師／医学博士）<br>
+													国際医療福祉大学大学院 准教授 / 株式会社Mediaccel代表取締役CEO / Holoeyes株式会社取締役COO
+													</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-comments"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>15:05 - 15:15</strong>
+												<h6 class="title">VR開発しくじり先生 OculusStoreの審査でしくじった先生</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">
+														１月下旬に２本のUE4製VRゲームをOculusStoreに申請をしたところ、２本ともリジェクトされました。<br>
+														２月中旬に再申請し、そのうち１本はStoreでの申請が却下され、KeyOnlyとなるしくじりをしました。<br>
+														このLTでは実際にOculus（Facebook）の審査員からの指摘事項を公開、それに対する対応方法を説明し、Store申請でしくじらないように気をつけるLTとなります。
+													</p>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">VRZ_Project @YuukiOgino
+													</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-comments"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>15:15 - 15:25</strong>
+												<h6 class="title">この「〇〇×VR」 相談事例に可能性を！</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">
+														2016年末から今年のかけて、色んな業界の方からVR開発に関するご相談が非常に多くなりました。<br>そのため、ここらで自分達の振り返りも兼ねて、〇〇×VR の可能性と案件相談事例をご紹介します！
+													</p>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">VR IMAGINATORS 代表 @halne369
+													</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-comments"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>15:25 - 15:40</strong>
+												<h6 class="title">日本列島VRとHoleLenz</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">
+														それぞれのコンテンツ制作にあたって工夫した点など紹介いたします。
+													</p>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">Individual developer @VoxelKei</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-comments"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>15:45 - 16:00</strong>
+												<h6 class="title">TBD: VR関連</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<!-- <p class="description"></p> -->
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">株式会社積木製作 シニアディレクター 関根 健太</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-comments"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>16:00 - 16:15</strong>
+												<h6 class="title">VRコンテンツと連動して、匂いが出るVRデバイス"VAQSO VR"</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">
+														VAQSO VRは、VRから匂いを出すデバイスです。HMDに装着して使用します。<br>
+														VRのコンテンツと連動して、複数のとてもリアルな匂いが出てきます。<br>
+														VRから匂いがでることで、さらにリアリティのあるVR体験が可能になります。<br>
+														VAQSO VRは、おかしのスニッカーズと同サイズで、とても薄く、とても小さいデバイスです。<br>
+														市販品のすべてのヘッドセットに、取付可能です。
+													</p>
+													<strong class="highlight" style="text-transform: inherit; letter-spacing: 0;">VAQSO Inc.</strong>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->
+
+										<!-- Lecture start -->
+										<div class="panel schedule-item">
+											<div class="lecture-icon-wrapper">
+												<span class="fa fa-glass"></span>
+											</div>
+											<span class="schedule-item-toggle">
+												<strong class="time highlight"><span class="icon icon-office-24"></span>16:15 - 17:30</strong>
+												<h6 class="title">懇親会 &amp; 体験会</h6>
+											</span>
+											<div id="schedule3_day1_main_time2" class="panel-collapse collapse in schedule-item-body">
+												<article>
+													<p class="description">体験可能なコンテンツは次の通りです。</p>
+													<p>
+														<b class="highlight">VR Airリズムアクション「Airtone」</b><br>
+														アミューズメントメディア総合学院の、商用ゲーム作品を開発する機関「AMG GAMES（AMGゲームス）」が贈る、エアーリズムアクション。さまざまなプラットフォーム対応予定のVRゲームです。<br>
+														<a href="http://airtone-vr.com/" target="_blank">http://airtone-vr.com/</a><br>
+														株式会社ヒストリア 様
+													</p>
+													<p>
+														<b class="highlight">VAQSO VR</b><br>
+														VAQSO VRは、VRから香りを出すデバイスです。 VR HMDに装着して使用します。<br>
+														VRのコンテンツと連動して複数の香りが出てきます。VRから香りがでることで、さらにリアリティのあるVR体験が可能になります。<br>
+														VAQSO VRは、おかしのスニッカーズと同サイズでとても薄く、とても小さいデバイスです。<br>
+														<a href="https://vaqso.com/" target="_blank">https://vaqso.com/</a><br>
+														VAQSO Inc. 様
+													</p>
+													<p>
+														<b class="highlight">The Gunner of Dragoon</b><br>
+														<!-- <br>
+														<a href="" target="_blank"></a><br> -->
+														野生の男 様
+													</p>
+													<p>
+														<b class="highlight">b.g. - beyond glasses</b><br>
+														メガネを知り尽くしたメガネスーパーにしかできないウェアラブル<br>
+														<a href="https://beyondglasses.jp/" target="_blank">https://beyondglasses.jp/</a><br>
+														メガネスーパー 様
+													</p>
+													<p>
+														<b class="highlight">Cubic Battle Online</b><br>
+														<!-- <br> -->
+														<a href="https://www.youtube.com/watch?v=w8YatMrf_G4" target="_blank">https://www.youtube.com/watch?v=w8YatMrf_G4</a><br>
+														VR IMAGINATORS inc. 様
+													</p>
+													<p>
+														<b class="highlight">MilkingVR</b><br>
+														牛になって女の子に乳を搾られるVRコンテンツ<br>
+														<b class="highlight">幼女ビンタVR</b><br>
+														女の子になじられながらビンタされるVRコンテンツ<br>
+														ゆるUnity電子工作部 様
+													</p>
+													<p>
+														<b class="highlight">HoleLenz、HoleLenz Gate</b><br>
+														HoloLensで壁や空間に穴を開け、さらに穴の向こう側の別空間へ行く体験ができるコンテンツです。<br>
+														<!-- <a href="" target="_blank"></a><br> -->
+														@VoxelKei 様
+													</p>
+												</article>
+											</div>
+										</div>
+										<!-- Lecture end -->										
+
+									</div>
+									<!-- Accordion end -->
+
+								</div>
+								<!-- Main content end -->
+
+							</div>
+							<!-- Second level content end -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="previousEvents" class="section align-center">
+		<div class="container">
+			<span class="icon section-icon icon-badges-votes-01"></span>
+			<h3>Previous events</h3>
+			<br>
+			<br>
+			<div class="col-md-10 col-md-offset-1">
+				<ul style="text-align: left;">
+					<li style="margin-bottom: 1em;">
+						<span style="font-weight: bold;">2017/01/28 VR Tech Tokyo #5</span>
+						<ul style="list-style-type: disc; padding-left: 1em;">
+							<li><a href="https://codeiq.jp/magazine/2017/02/49301/" target="_blank">VRコンテンツはいかにして開発するか？「VR Tech Tokyo #5」でそのコツが解明された</a></li>
+							<li><a href="https://togetter.com/li/1075652" target="_blank">VR Tech Tokyo #5 まとめ #vrtokyo</a></li>
+						</ul>
+					</li>
+					<li style="margin-bottom: 1em;">
+						<span style="font-weight: bold;">2016/11/10 VR Tech Tokyo #4</span>
+						<ul style="list-style-type: disc; padding-left: 1em;">
+							<li><a href="http://svrinfo.jp/detail?p=173000" target="_blank">【イベントレポート】SIE秋山氏が語るPSVRローンチ後の反響や課題とは　「VR Tech Tokyo#4」レポートその1</a></li>
+							<li><a href="http://svrinfo.jp/detail?p=173174" target="_blank">【イベントレポート】SIE秋山氏が語るPSVRローンチ後の反響や課題とは　「VR Tech Tokyo#4」レポートその2</a></li>
+							<li><a href="http://svrinfo.jp/detail?p=173263" target="_blank">【イベントレポート】SIE秋山氏が語るPSVRローンチ後の反響や課題とは　「VR Tech Tokyo#4」レポートその3</a></li>
+							<li><a href="http://svrinfo.jp/detail?p=173362" target="_blank">【イベントレポート】SIE秋山氏が語るPSVRローンチ後の反響や課題とは　「VR Tech Tokyo#4」レポートその4</a></li>
+							<li><a href="https://togetter.com/li/1048321" target="_blank">VR Tech Tokyo #4 @ GMO Yours</a></li>
+						</ul>
+					</li>
+					<li style="margin-bottom: 1em;">
+						<span style="font-weight: bold;">2016/09/26 VR Tech Tokyo #3</span>
+						<ul style="list-style-type: disc; padding-left: 1em;">
+							<li><a href="https://vrnavi.net/vr_tech_tokyo_3_repo/" target="_blank">VR開発者向けの勉強会「VR TECH TOKYO #3」 に行ってきました！</a></li>
+							<li><a href="https://togetter.com/li/1029612" target="_blank">#VRTokyo 3回目におけるNVIDIAへの反応</a></li>
+						</ul>
+					</li>
+					<li style="margin-bottom: 1em;">
+						<span style="font-weight: bold;">2016/07/27 VR Tech Tokyo #2</span>
+						<ul style="list-style-type: disc; padding-left: 1em;">
+							<li><a href="http://svrinfo.jp/detail?p=166003" target="_blank">「現実と仮想空間の境目をどれだけ無くすかで、VRシンクロ率の高さが決まる」…VRにおけるゲーム/レベルデザインの重要性に迫る</a></li>
+							<li><a href="http://www.moguravr.com/vr-dev-lt/" target="_blank">「VR開発はゲーム技術の結晶」VR開発LT勉強会VR Tech Tokyo #2で語られた知見</a></li>
+							<li><a href="http://jp.gamesindustry.biz/article/1608/16080101/" target="_blank">VR開発者による濃密なLTが連続した「VR Tech Tokyo #2」レポート</a></li>
+							<li><a href="https://togetter.com/li/1005537" target="_blank">VRコンテンツの開発者によるLT型勉強会コミュニティ “VR Tech Tokyo #2” まとめ #vrtokyo</a></li>
+						</ul>
+					</li>
+					<li style="margin-bottom: 1em;">
+						<span style="font-weight: bold;">2016/05/26 VR Tech Tokyo #2</span>
+						<ul style="list-style-type: disc; padding-left: 1em;">
+							<li><a href="https://togetter.com/li/980036" target="_blank">“VR Tech Tokyo #1” 2016/05/26 #vrtokyo</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="sponsors" class="section align-center">
+		<div class="container">
+			<span class="icon section-icon icon-documents-bookmarks-12"></span>
+			<h3>General sponsors</h3>
+			<br/>
+			<br/>
+			<div class="sponsors">
+				<div class="sponsor big"><img src="assets/img/sponsors/microsoft.png" alt="日本マイクロソフト株式会社"></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="access" class="section align-center">
+		<div class="container">
+			<span class="icon section-icon icon-seo-icons-34"></span>
+			<h3>Access</h3>
+			<ul class="list">
+				<li><span style="font-weight: bold; font-size: 1.2em;">日本マイクロソフト株式会社 品川本社</span></li>
+				<li><i class="fa fa-map-marker"></i>東京都港区港南 2-16-3 品川グランドセントラルタワー 31F</li>
+				<li><i class="fa fa-train"></i>品川駅 港南口よりスカイウェイにて直結 徒歩 3 分</li>
+			</ul>
+		</div>
+		<div id="map_canvas" class="map" style="width:100%;height:560px;"></div>
+	</section>
+
+	<section class="footer" style="padding-top: 0;">
+		<div class="footer-base">
+			<div class="container">
+				<div class="col-md-6">
+					<ul class="footer-nav">
+						<!-- <li class="footer-nav-item"><a href="#">行動規範</a></li> -->
+						<li class="footer-nav-item"><a href="https://twitter.com/VRTechTokyo" target="_blank" style="text-transform: inherit;">@VRTechTokyo</a> / <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23VRTechTokyo" target="_blank" style="text-transform: inherit;">#VRTechTokyo<a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 align-right">
+					<p class="text-alt"><small>All Rights Reserved © 2017</small></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-93552313-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+ 	<script src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyCsBZqkL7dM9Y873RX4DdbhaIdQa7o4zLA&sensor=true&libraries=places"></script>
+	<script src="assets/js/mapstyle.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/jquery.appear.js"></script>
+	<script src="assets/js/jquery.plugin.js"></script>
+	<script src="assets/js/ventcamp.js"></script>
+
+</body>
+</html>
